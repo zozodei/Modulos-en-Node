@@ -54,3 +54,17 @@ fechaHoy();*/
 
 //Ejercicio 4
 
+import axios from 'axios';
+
+async function obtenerPais(pais) {
+    const url = `https://restcountries.com/v3.1/name/${pais}`;
+    const response = await axios.get(url);
+
+    const infoPais = response.data[0];
+
+    console.log("País:", infoPais.name.common);
+    console.log("Capital:", infoPais.capital[0]);
+    console.log("Región:", infoPais.region);
+    console.log("Población:", infoPais.population);
+}
+obtenerPais("Argentina");
