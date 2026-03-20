@@ -39,3 +39,18 @@ productos.forEach(e => {
     agregarProducto("Hamburguesa", 30000); */
     
     
+//Ejercicio 3
+
+/*import dayjs from 'dayjs';
+
+const fechaHoy = () => 
+    {   
+        console.log(`Fecha: ${dayjs().format('DD/MM/YYYY')}`);
+        console.log(`Hora: ${dayjs().format('HH:mm:ss')}`)
+    }
+fechaHoy();*/
+
+
+
+//Ejercicio 4
+
