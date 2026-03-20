@@ -118,5 +118,10 @@
     "id": 24,
     "nombre": "Monitor 32 pulgadas",
     "precio": 380000
+  },
+  {
+    "id": 25,
+    "nombre": "Hamburguesa",
+    "precio": 30000
   }
 ]
